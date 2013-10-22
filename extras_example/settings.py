@@ -123,6 +123,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     'django.contrib.admin',
+
+    'extras_example.custom_fields',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
